@@ -1,0 +1,122 @@
+ngb-carousel{
+  height:300px;
+  width: 900px;
+  margin-top: 10px;
+  position: relative;
+  left: 100px;
+  border: 2px solid white;
+  border-radius: 12px;
+}
+
+.imgCarrossel{
+  border-radius: 15px;
+
+}
+
+mat-card{
+  color: white;
+  margin-top: 20px;
+  background: linear-gradient(0.25turn, #0c0c0c, #272726, #4d4d4c);
+  border-radius: 30px;
+  border: 2px solid blue;
+  position: relative;
+  bottom: 30px;
+  left: 180px;
+
+}
+
+.logo_card_login{
+  border-radius: 40px;
+  position: relative;
+  left: 310px;
+  bottom: 30px;
+  border: 2px solid blue;
+}
+
+.title_card_login{
+  font-size: 11px;
+}
+
+.conteudoform{
+  text-align: center;
+}
+
+.container .container_form{
+  position: relative;
+  left: 200px;
+}
+
+button{
+  margin-bottom: 10px;
+  border: 2px solid black;
+}
+.btn-pf{
+  background-color: white;
+  color: black;
+}
+
+@media(min-width:320px)and(max-width:720px){
+  .container{
+    position: relative;
+    right: 60px;
+  }
+  ngb-carousel{
+    height:300px;
+    width: 300px;
+    margin-top: 10px;
+    position: relative;
+    left: 105px;
+
+
+    border: 2px solid white;
+    border-radius: 12px;
+  }
+
+  .imgCarrossel{
+    border-radius: 15px;
+
+  }
+
+  mat-card{
+    color: white;
+    margin-top: 20px;
+    background: linear-gradient(0.25turn, #0c0c0c, #272726, #4d4d4c);
+    border-radius: 30px;
+    border: 2px solid blue;
+    position: relative;
+    bottom: 30px;
+    left: 180px;
+
+
+  }
+
+  .logo_card_login{
+    border-radius: 40px;
+    position: relative;
+    left: 71px;
+    bottom: 30px;
+    border: 2px solid blue;
+  }
+
+  .title_card_login{
+    font-size: 11px;
+  }
+
+  .conteudoform{
+    text-align: center;
+  }
+
+  .container .container_form{
+    position: relative;
+    left: 200px;
+  }
+
+  button{
+    margin-bottom: 10px;
+    border: 2px solid black;
+  }
+  .btn-pf{
+    background-color: white;
+    color: black;
+  }
+}
